@@ -11,7 +11,7 @@ public class ThreeProduct {
 		int product = 0;
 		System.out.println("Enter a number: ");
 		Scanner inputScanner = new Scanner(System.in);
-		//inputScanner.useDelimiter(", ");                             
+		inputScanner.useDelimiter(", ");                             
 		firstNumber = inputScanner.nextInt();
 		System.out.println("Enter another number: ");
 		secondNumber = inputScanner.nextInt();
